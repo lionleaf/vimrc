@@ -1,6 +1,10 @@
+colorscheme elflord
+let mapleader=","       " leader is comma
 syntax enable           " enable syntax processing
+set smartindent
 set tabstop=4       " number of visual spaces per TAB
 set softtabstop=4   " number of spaces in tab when editing
+set shiftwidth=4
 set expandtab       " tabs are spaces
 set number              " show line numbers
 set showcmd             " show command in bottom bar
@@ -31,8 +35,6 @@ nnoremap E $
 " highlight last inserted text
 nnoremap gV `[v`]
 
-
-let mapleader=","       " leader is comma
 
 " toggle gundo
 nnoremap <leader>u :GundoToggle<CR>
